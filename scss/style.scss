@@ -1,0 +1,28 @@
+// VARIABLES
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/extends";
+
+// BASE
+@import "base/reset";
+@import "base/typography";
+
+// COMPONENTS
+@import "components/buttons";
+
+// LAYOUT
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+// PAGES
+@import "pages/index";
+@import "pages/nosotros";
+@import "pages/contacto";
+
+// MEDIA QUERIES
+@import "mediaqueries/mqindex.scss";
+@import "mediaqueries/mqnosotros.scss";
+@import "mediaqueries/mqcontacto.scss";
+@import "mediaqueries/mqheader";
+@import "mediaqueries/mqfooter";

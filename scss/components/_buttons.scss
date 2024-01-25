@@ -1,0 +1,121 @@
+/* BUTTON WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  transition: height 3s width 3s;
+
+  &:hover {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* BUTTON INDEX */
+.buttonIndex {
+  @extend %flex;
+  @include marginstb(15px, 15px);
+
+  .buttonIndexInterior {
+    @extend %flex;
+    width: 220px;
+    padding: 10px 25px;
+    font-family: $font-family;
+    border-radius: 15px;
+    border: $color-secundario solid 5px;
+    text-decoration: underline;
+    color: $color-terciario;
+    background-color: $color-secundario;
+  }
+
+  .buttonIndexInterior:hover {
+    border: black solid 5px;
+    text-decoration: underline;
+    color: $color-letras;
+    background-color: $color-primario;
+  }
+}
+
+/* BUTTON PEDIDOS */
+.buttonPedidos {
+  @extend %flex;
+  @include marginstb(15px, 15px);
+
+  .buttonPedidosInterior {
+    @extend %flex;
+    width: 220px;
+    padding: 10px 25px;
+    font-family: $font-family;
+    border-radius: 15px;
+    border: $color-secundario solid 5px;
+    text-decoration: underline;
+    color: $color-terciario;
+    background-color: $color-secundario;
+  }
+
+  .buttonPedidosInterior:hover {
+    border: black solid 5px;
+    text-decoration: underline;
+    color: $color-letras;
+    background-color: $color-primario;
+  }
+}
+
+/* BUTTONS CONTACTO */
+.botonesForm {
+  .botonSubmit {
+    width: 120px;
+    padding: 0px 25px;
+    font-family: $font-family;
+    border-radius: 10px;
+    border: solid $color-secundario 4px;
+    text-decoration: underline;
+    color: $color-terciario;
+    background-color: $color-secundario;
+  }
+
+  .botonSubmit:hover {
+    border: black solid 3px;
+    text-decoration: underline;
+    color: $color-letras;
+    background-color: $color-primario;
+  }
+
+  .botonLimpiar {
+    width: 120px;
+    padding: 0px 25px;
+    font-family: $font-family;
+    border-radius: 10px;
+    border: solid $color-secundario 4px;
+    text-decoration: underline;
+    color: $color-terciario;
+    background-color: $color-secundario;
+  }
+
+  .botonLimpiar:hover {
+    border: black solid 3px;
+    text-decoration: underline;
+    color: $color-letras;
+    background-color: $color-primario;
+  }
+}
+
+/* BUTTON ORDENAR */
+.buttonOrdenar {
+  width: 120px;
+  padding: 0px 25px;
+  font-family: $font-family;
+  border-radius: 10px;
+  border: solid $color-secundario 4px;
+  text-decoration: none;
+  color: $color-terciario;
+  background-color: $color-secundario;
+}
+
+.buttonOrdenar:hover {
+  border: black solid 3px;
+  text-decoration: underline;
+  color: $color-letras;
+  background-color: $color-primario;
+}

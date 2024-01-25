@@ -1,0 +1,53 @@
+/* FOOTER */
+footer {
+    background-color: $color-primario;
+    width: 100%;
+    color: $color-letras;
+    font-size: small;
+    @include paddingstb(20px, 20px);
+    @include flex(row, space-evenly);
+
+    .medioscontacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .ubicacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .rrss {
+        @extend %flex;
+    }
+
+    .icono {
+        width: 25px;
+    }
+
+    img {
+        width: 50px;
+        margin: 5px;
+        transition: height 3s width 3s;
+
+        &:hover {
+            @include medidas (65px, 65px);
+        }
+    }
+}

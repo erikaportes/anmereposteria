@@ -1,0 +1,87 @@
+/* NOSOTROS */
+.h1Nosotros {
+    color: black;
+    @extend %flex;
+    padding-top: 150px;
+}
+
+.paddingNosotros {
+    color: black;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+    .cardMision {
+        @include flex(row, space-evenly);
+        margin-bottom: 50px;
+
+        .textoMision {
+            @include medidas(550px, 250px);
+            padding-top: 30px;
+        }
+
+        .parrafoMision {
+            font-size: large;
+        }
+
+        .imagenMision {
+            @include medidas(550px, 250px);
+            border-radius: 10%;
+            object-fit: cover;
+            transition: transform 2s;
+
+            &:hover {
+                transform: rotatey(360deg);
+            }
+        }
+    }
+
+    .cardVision {
+        @include flex(row, space-evenly);
+        margin-bottom: 50px;
+
+        .imagenVision {
+            @include medidas(550px, 250px);
+            border-radius: 10%;
+            object-fit: cover;
+            transition: transform 2s;
+
+            &:hover {
+                transform: rotatey(360deg);
+            }
+        }
+
+        .textoVision {
+            @include medidas(550px, 250px);
+            padding-top: 40px;
+        }
+
+        .parrafoVision {
+            font-size: large
+        }
+    }
+
+    .cardValores {
+        @include flex(row, space-evenly);
+        margin-bottom: 50px;
+
+        .textoValores {
+            @include medidas(550px, 250px);
+            padding-top: 0px;
+        }
+
+        .parrafoValores {
+            font-size: large;
+        }
+
+        .imagenValores {
+            @include medidas(550px, 250px);
+            border-radius: 10%;
+            object-fit: cover;
+            transition: transform 2s;
+
+            &:hover {
+                transform: rotatey(360deg);
+            }
+        }
+    }
+}

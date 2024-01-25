@@ -1,0 +1,56 @@
+/* CONTACTO */
+.paddingsContacto {
+    color: black;
+    @include flex(column, center);
+    @include paddingstb(150px, 40px);
+
+    .textoContactanos {
+        margin-bottom: 20px;
+    }
+
+    .nombre {
+        @include flexInput(row);
+    }
+
+    .inputNombre {
+        width: 390px;
+        margin-bottom: 20px;
+    }
+
+    .apellido {
+        @include flexInput(row);
+    }
+
+    .inputApellido {
+        width: 390px;
+        margin-bottom: 20px;
+    }
+
+    .telefono {
+        @include flexInput(row);
+    }
+
+    .inputTelefono {
+        width: 390px;
+        margin-bottom: 20px;
+    }
+
+    .correo {
+        @include flexInput(row);
+    }
+
+    .inputCorreo {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .comentarios {
+        @include flexInput(column);
+    }
+
+    .inputComentarios {
+        width: 435px;
+        margin-bottom: 20px;
+    }
+}
+

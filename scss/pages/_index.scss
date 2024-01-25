@@ -1,0 +1,104 @@
+/* PEDIDOS */
+
+.tituloPedidos {
+  color: black;
+  padding-top: 150px;
+  @include flex(row, center);
+}
+
+.frutales {
+  color: black;
+  padding-top: 20px;
+  @include flex(row, center);
+}
+
+.paysFrutales {
+  color: black;
+  @include paddingstb(10px, 20px);
+  column-gap: 20px;
+  @include flex(row, center);
+
+  .card {
+      @include flex(column, center);
+      @include medidas(300px, 260px);
+      @include marginstb(20px, 20px);
+      row-gap: 10px;
+      border: $color-secundario 1px solid;
+      border-radius: 15%
+  }
+
+  .fotoPayLimon {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+
+  .fotoPayGuayaba {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+
+  .fotoPayMoras {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+
+  .fotoPayMango {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+}
+
+.chocolates {
+  color: black;
+  padding-top: 20px;
+  @include flex(row, center);
+}
+
+.paysChocolates {
+  color: black;
+  @include paddingstb(10px, 20px);
+  column-gap: 20px;
+  @include flex(row, center);
+
+  .card {
+      @include flex(column, center);
+      @include medidas(300px, 260px);
+      @include marginstb(20px, 20px);
+      row-gap: 10px;
+      border: $color-secundario 1px solid;
+      border-radius: 15%
+  }
+
+  .fotoPayConejito {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+
+  .fotoPayFerrero {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+
+  .fotoPayKitKat {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+
+  .fotoPayRaffaello {
+      @include medidas(200px, 110px);
+      border-radius: 10%;
+      object-fit: cover;
+  }
+}
+
+.buttonPedidos {
+  @include flex(row, center);
+  @include paddingstb(10px, 30px);
+}

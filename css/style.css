@@ -1,0 +1,814 @@
+@charset "UTF-8";
+.h1Nosotros, footer .rrss, .buttonPedidos .buttonPedidosInterior, .buttonPedidos, .buttonIndex .buttonIndexInterior, .buttonIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+/* RESET - ESTILOS GLOBALES*/
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body ul li {
+  list-style-type: none;
+}
+body a {
+  text-decoration: none;
+}
+body h1 {
+  font-size: xx-large;
+}
+body h2 {
+  font-size: x-large;
+}
+body h3 {
+  font-size: large;
+}
+body p {
+  font-size: medium;
+}
+
+/* TIPOGRAFIA */
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* BUTTON WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  transition: height 3s width 3s;
+}
+.whatsapp:hover {
+  width: 120px;
+  height: 120px;
+}
+
+/* BUTTON INDEX */
+.buttonIndex {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.buttonIndex .buttonIndexInterior {
+  width: 220px;
+  padding: 10px 25px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 15px;
+  border: #385A65 solid 5px;
+  text-decoration: underline;
+  color: white;
+  background-color: #385A65;
+}
+.buttonIndex .buttonIndexInterior:hover {
+  border: black solid 5px;
+  text-decoration: underline;
+  color: black;
+  background-color: #BAD5D9;
+}
+
+/* BUTTON PEDIDOS */
+.buttonPedidos {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.buttonPedidos .buttonPedidosInterior {
+  width: 220px;
+  padding: 10px 25px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 15px;
+  border: #385A65 solid 5px;
+  text-decoration: underline;
+  color: white;
+  background-color: #385A65;
+}
+.buttonPedidos .buttonPedidosInterior:hover {
+  border: black solid 5px;
+  text-decoration: underline;
+  color: black;
+  background-color: #BAD5D9;
+}
+
+/* BUTTONS CONTACTO */
+.botonesForm .botonSubmit {
+  width: 120px;
+  padding: 0px 25px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  border: solid #385A65 4px;
+  text-decoration: underline;
+  color: white;
+  background-color: #385A65;
+}
+.botonesForm .botonSubmit:hover {
+  border: black solid 3px;
+  text-decoration: underline;
+  color: black;
+  background-color: #BAD5D9;
+}
+.botonesForm .botonLimpiar {
+  width: 120px;
+  padding: 0px 25px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  border: solid #385A65 4px;
+  text-decoration: underline;
+  color: white;
+  background-color: #385A65;
+}
+.botonesForm .botonLimpiar:hover {
+  border: black solid 3px;
+  text-decoration: underline;
+  color: black;
+  background-color: #BAD5D9;
+}
+
+/* BUTTON ORDENAR */
+.buttonOrdenar {
+  width: 120px;
+  padding: 0px 25px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  border: solid #385A65 4px;
+  text-decoration: none;
+  color: white;
+  background-color: #385A65;
+}
+
+.buttonOrdenar:hover {
+  border: black solid 3px;
+  text-decoration: underline;
+  color: black;
+  background-color: #BAD5D9;
+}
+
+/* HEADER/NAVBAR */
+nav {
+  background-color: #BAD5D9;
+}
+nav .navbar-logo img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+nav .navbar-toggler {
+  background-color: #BAD5D9;
+}
+nav .nav-link {
+  color: black;
+}
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* MAIN */
+main {
+  background-color: white;
+  color: #385A65;
+}
+
+.paddings {
+  padding-top: 115px;
+  padding-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #BAD5D9;
+  width: 100%;
+  color: black;
+  font-size: small;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .medioscontacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+footer dl,
+footer ol,
+footer ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+footer .ubicacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+footer .icono {
+  width: 25px;
+}
+footer img {
+  width: 50px;
+  margin: 5px;
+  transition: height 3s width 3s;
+}
+footer img:hover {
+  width: 65px;
+  height: 65px;
+}
+
+/* PEDIDOS */
+.tituloPedidos {
+  color: black;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.frutales {
+  color: black;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paysFrutales {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.paysFrutales .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 260px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  row-gap: 10px;
+  border: #385A65 1px solid;
+  border-radius: 15%;
+}
+.paysFrutales .fotoPayLimon {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.paysFrutales .fotoPayGuayaba {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.paysFrutales .fotoPayMoras {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.paysFrutales .fotoPayMango {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.chocolates {
+  color: black;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paysChocolates {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.paysChocolates .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 260px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  row-gap: 10px;
+  border: #385A65 1px solid;
+  border-radius: 15%;
+}
+.paysChocolates .fotoPayConejito {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.paysChocolates .fotoPayFerrero {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.paysChocolates .fotoPayKitKat {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.paysChocolates .fotoPayRaffaello {
+  width: 200px;
+  height: 110px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.buttonPedidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* NOSOTROS */
+.h1Nosotros {
+  color: black;
+  padding-top: 150px;
+}
+
+.paddingNosotros {
+  color: black;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.paddingNosotros .cardMision {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.paddingNosotros .cardMision .textoMision {
+  width: 550px;
+  height: 250px;
+  padding-top: 30px;
+}
+.paddingNosotros .cardMision .parrafoMision {
+  font-size: large;
+}
+.paddingNosotros .cardMision .imagenMision {
+  width: 550px;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  transition: transform 2s;
+}
+.paddingNosotros .cardMision .imagenMision:hover {
+  transform: rotatey(360deg);
+}
+.paddingNosotros .cardVision {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.paddingNosotros .cardVision .imagenVision {
+  width: 550px;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  transition: transform 2s;
+}
+.paddingNosotros .cardVision .imagenVision:hover {
+  transform: rotatey(360deg);
+}
+.paddingNosotros .cardVision .textoVision {
+  width: 550px;
+  height: 250px;
+  padding-top: 40px;
+}
+.paddingNosotros .cardVision .parrafoVision {
+  font-size: large;
+}
+.paddingNosotros .cardValores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.paddingNosotros .cardValores .textoValores {
+  width: 550px;
+  height: 250px;
+  padding-top: 0px;
+}
+.paddingNosotros .cardValores .parrafoValores {
+  font-size: large;
+}
+.paddingNosotros .cardValores .imagenValores {
+  width: 550px;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  transition: transform 2s;
+}
+.paddingNosotros .cardValores .imagenValores:hover {
+  transform: rotatey(360deg);
+}
+
+/* CONTACTO */
+.paddingsContacto {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+.paddingsContacto .textoContactanos {
+  margin-bottom: 20px;
+}
+.paddingsContacto .nombre {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsContacto .inputNombre {
+  width: 390px;
+  margin-bottom: 20px;
+}
+.paddingsContacto .apellido {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsContacto .inputApellido {
+  width: 390px;
+  margin-bottom: 20px;
+}
+.paddingsContacto .telefono {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsContacto .inputTelefono {
+  width: 390px;
+  margin-bottom: 20px;
+}
+.paddingsContacto .correo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsContacto .inputCorreo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.paddingsContacto .comentarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.paddingsContacto .inputComentarios {
+  width: 435px;
+  margin-bottom: 20px;
+}
+
+/* NOSOTROS RESOLUCION MENOR A 1024px */
+/* NOTA: Lo dejé responsive de esa manera hasta 1120px, ya que se quebraba en un punto por el column-reverse de card Vision y se mostraban al revés */
+@media screen and (max-width: 1120px) {
+  .paddingNosotros {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .paddingNosotros .cardMision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .paddingNosotros .cardMision .textoMision {
+    width: 700px;
+    height: 180px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+  }
+  .paddingNosotros .cardMision .imagenMision {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .paddingNosotros .cardVision {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .paddingNosotros .cardVision .imagenVision {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .paddingNosotros .cardVision .textoVision {
+    width: 700px;
+    height: 190px;
+    padding-bottom: 0px;
+    padding-top: 45px;
+  }
+  .paddingNosotros .cardValores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .paddingNosotros .cardValores .textoValores {
+    width: 700px;
+    height: 190px;
+    margin: 20px;
+  }
+  .paddingNosotros .cardValores .imagenValores {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 40px;
+  }
+}
+/* NOSOTROS RESOLUCION MENOR A 768px */
+@media screen and (max-width: 768px) {
+  .paddingNosotros {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .paddingNosotros .cardMision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+  .paddingNosotros .cardMision .textoMision {
+    width: 300px;
+    height: 180px;
+    margin-bottom: 70px;
+    padding-top: 10px;
+  }
+  .paddingNosotros .cardMision .imagenMision {
+    margin-top: 80px;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .paddingNosotros .cardVision {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .paddingNosotros .cardVision .textoVision {
+    width: 300px;
+    height: 190px;
+    padding-bottom: 0px;
+  }
+  .paddingNosotros .cardVision .imagenVision {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 60px;
+  }
+  .paddingNosotros .cardValores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .paddingNosotros .cardValores .textoValores {
+    width: 300px;
+    height: 190px;
+    padding-bottom: 0px;
+  }
+  .paddingNosotros .cardValores .imagenValores {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 190px;
+  }
+}
+/* CONTACTO RESOLUCION MENOR A 1024PX */
+@media screen and (max-width: 1024px) {
+  .paddingsContacto {
+    padding-top: 150px;
+    padding-bottom: 40px;
+  }
+  .paddingsContacto .nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputNombre {
+    width: 390px;
+  }
+  .paddingsContacto .apellido {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputApellido {
+    width: 390px;
+  }
+  .paddingsContacto .telefono {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputTelefono {
+    width: 390px;
+  }
+  .paddingsContacto .correo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputCorreo {
+    width: 400px;
+  }
+  .paddingsContacto .comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputComentarios {
+    width: 440px;
+  }
+}
+/* CONTACTO RESOLUCION MENOR A 768PX */
+@media screen and (max-width: 768px) {
+  .paddingsContacto {
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+  .paddingsContacto .nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputNombre {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsContacto .apellido {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputApellido {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsContacto .telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputTelefono {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsContacto .correo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputCorreo {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsContacto .comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsContacto .inputComentarios {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+/* HEADER/NAV (TOGGLER Y LOGO) RESOLUCION MENOR A 1024PX */
+@media screen and (max-width: 1024px) {
+  .navbar-logo img {
+    margin-left: 20px;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 20px;
+  }
+}
+/* HEADER/NAV (TOGGLER Y LOGO) RESOLUCION MENOR A 768PX */
+@media screen and (max-width: 768px) {
+  .navbar-logo img {
+    margin-left: 5px;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 10px;
+  }
+}
+/* FOOTER (TOGGLER Y LOGO) RESOLUCION MENOR A 768PX */
+@media screen and (max-width: 768px) {
+  .ubicacion {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .rrss {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

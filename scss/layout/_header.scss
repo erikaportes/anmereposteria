@@ -1,0 +1,24 @@
+/* HEADER/NAVBAR */
+nav {
+    background-color: $color-primario;
+
+    .navbar-logo img {
+        @include medidas(150px, 100px);
+        object-fit: cover;
+    }
+
+    .navbar-toggler {
+        background-color: $color-primario;
+    }
+
+    .nav-link {
+        color: $color-letras;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show {
+        color: $color-letras;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+}
