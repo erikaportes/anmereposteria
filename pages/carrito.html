@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nuestra Misión, Visión y Valores">
+  <meta name="description" content="Contáctanos para darte el mejor servicio y atención">
   <meta name="keywords"
-    content="Repostería, misión, vision, valores, nosotros, postres, pays helados, postres keto, panques, pasteles keto, keto, repostería keto">
-  <title>Anme Repostería | Nosotros | Deliciosos postres artesanales como pays helados y postres keto y veganos</title>
+    content="contactanos, llamanos, contacto, informes, atención gratuita, servicio al cliente, servicio a domicilio, informes postres, informes pays helados, servicios de postres">
+  <title>Anme Repostería | Contacto | Contáctanos y ordena deliciosos postres artesanales como pays helados y postres keto y veganos</title>
 
 <!-- Link a Google Fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,14 +37,14 @@
             <a class="nav-link" href="../index.html">Menú</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
             <a href="./carrito.html">
-              <img  class="carrito" src="../img/carrito-icon.png" alt="Carrito de compras">
+              <img  class="carrito" class="nav-link active" src="../img/carrito-icon.png" alt="Carrito de compras">
             </a>
           </li>
         </ul>
@@ -52,46 +52,51 @@
     </div>
   </nav>
 
-  <main>
+    <main class="paddingsContacto">
 
-    <h1 class="h1Nosotros">¡Sobre nosotros!</h1>
-
-    <div class="paddingNosotros">
-
-      <div class="cardMision">
-        <div class="textoMision">
-          <h2>Misión</h2>
-          <p class="parrafoMision">Queremos brindar sabores únicos e inigualables que en ningún otro lugar podrán encontrar.</p>
-        </div>
-        <img class="imagenMision" src="../img/pay-conejito.JPG" alt="Arco de flores">
+      <h1 class="textoContactanos">Ingresa tus datos para compra</h1>
+  
+      <div class="formularioContacto">
+        <form action="Formulario de contacto">
       </div>
-
-      <div class="cardVision">
-        <img class="imagenVision" src="../img/pay-mango.JPEG" alt="Novios en el campo">
-        <div class="textoVision">
-          <h2>Visión</h2>
-          <p class="parrafoVision">Ser los diferenciadores en nuestros sabores y complacer cada vez a mayor número de personas. Que estén satisfechas con nuestros productos.
-          </p>
-        </div>
+  
+      <div class="nombre">
+        <label for="nombre">Nombre:</label>
+        <input class="inputNombre" type="text" id="nombre" placeholder="Ingresa tu nombre">
       </div>
-
-      <div class="cardValores">
-        <div class="textoValores">
-          <h2>Valores</h2>
-          <p class="parrafoValores">
-            COMPROMISO: Nos comprometemos a que nuestro productos sean de excelente calidad y sabor.<br>
-            DIFERENCIA: Nos destacamos por tener sabores distintivos e inigualables. <br>
-            CALIDAD: Los productos con que elaboramos los postres son de alta calidad. <br>
-            RESPONSABILIDAD: Nos responsabilizamos en ofrecer el mejor servicio a nuestros comensales y de una manera profesional.
-          </p>
-        </div>
-        <img class="imagenValores" src="../img/pay-moras.jpg" alt="Novios en celebración">
+  
+      <div class="apellido">
+        <label for="apellido">Apellido:</label>
+        <input class="inputApellido" type="text" id="apellido" placeholder="Ingresa tu apellido">
       </div>
-
+  
+      <div class="telefono">
+        <label for="whatsapp">Teléfono:</label>
+        <input class="inputTelefono" type="number" id="whatsapp" placeholder="55 5555 5555">
+      </div>
+  
+      <div class="correo">
+        <label for="email">Correo:</label>
+        <input class="inputCorreo" type="email" name="email" id="email" placeholder="email@gmail.com">
+      </div>
+  
+      <div class="comentarios">
+        <label class="labelComentarios" for="comentarios">Dirección:</label>
+        <textarea class="inputComentarios" name="comentarios" id="comentarios" placeholder="Ingresa tu domicilio"
+          cols="20" rows="5"></textarea>
+      </div>
+  
+      <div class="botonesForm">
+        <button class="botonSubmit" type="submit">Enviar</button>
+        <button class="botonLimpiar" type="reset">Limpiar</button>
+      </div>
+  
+      </form>
+  
+      </div>
+  
       <a target="_blank" href="https://w.app/anmereposteria"><img class="whatsapp" src="../img/whatsapp-icon-verde.png" alt="Whatsapp"></a>
-      </a>
-
-  </main>
+    </main>
 
   <footer>
     <ul class="mediosContacto">

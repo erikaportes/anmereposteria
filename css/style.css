@@ -170,6 +170,10 @@ nav .navbar-nav .nav-link.show {
   text-decoration: underline;
   text-decoration-thickness: 3px;
 }
+nav .carrito {
+  width: 25px;
+  height: 25px;
+}
 
 /* HEADER/NAV (TOGGLER Y LOGO) RESOLUCION MENOR A 1024PX */
 @media screen and (max-width: 1024px) {
