@@ -820,5 +820,165 @@ ul.paysChocolates {
     margin-bottom: 10px;
   }
 }
+/* CARRITO */
+.paddingsCarrito {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+.paddingsCarrito .textoContactanos {
+  margin-bottom: 20px;
+}
+.paddingsCarrito .nombre {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsCarrito .inputNombre {
+  width: 390px;
+  margin-bottom: 20px;
+}
+.paddingsCarrito .apellido {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsCarrito .inputApellido {
+  width: 390px;
+  margin-bottom: 20px;
+}
+.paddingsCarrito .telefono {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsCarrito .inputTelefono {
+  width: 390px;
+  margin-bottom: 20px;
+}
+.paddingsCarrito .correo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paddingsCarrito .inputCorreo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.paddingsCarrito .comentarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.paddingsCarrito .inputComentarios {
+  width: 435px;
+  margin-bottom: 20px;
+}
+
+/* CONTACTO RESOLUCION MENOR A 1024PX */
+@media screen and (max-width: 1024px) {
+  .paddingsCarrito {
+    padding-top: 150px;
+    padding-bottom: 40px;
+  }
+  .paddingsCarrito .nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputNombre {
+    width: 390px;
+  }
+  .paddingsCarrito .apellido {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputApellido {
+    width: 390px;
+  }
+  .paddingsCarrito .telefono {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputTelefono {
+    width: 390px;
+  }
+  .paddingsCarrito .correo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputCorreo {
+    width: 400px;
+  }
+  .paddingsCarrito .comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputComentarios {
+    width: 440px;
+  }
+}
+/* CONTACTO RESOLUCION MENOR A 768PX */
+@media screen and (max-width: 768px) {
+  .paddingsCarrito {
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+  .paddingsCarrito .nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputNombre {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsCarrito .apellido {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputApellido {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsCarrito .telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputTelefono {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsCarrito .correo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputCorreo {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .paddingsCarrito .comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .paddingsCarrito .inputComentarios {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 /* CARRITO */
-.paddingsContacto {
+.paddingsCarrito {
     color: black;
     @include flex(column, center);
     @include paddingstb(150px, 40px);
@@ -56,7 +56,7 @@
 
 /* CONTACTO RESOLUCION MENOR A 1024PX */
 @media screen and (max-width: 1024px) {
-    .paddingsContacto {
+    .paddingsCarrito {
         @include paddingstb(150px, 40px);
 
         .nombre {
@@ -103,7 +103,7 @@
 
 /* CONTACTO RESOLUCION MENOR A 768PX */
 @media screen and (max-width: 768px) {
-    .paddingsContacto {
+    .paddingsCarrito {
         @include paddingstb(140px, 40px);
 
         .nombre {
