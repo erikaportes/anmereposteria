@@ -12,6 +12,10 @@
   @include flex(row, center);
 }
 
+ul.paysFrutales {
+padding-left: 0;
+}
+
 .paysFrutales {
   color: black;
   @include paddingstb(10px, 20px);
@@ -20,7 +24,7 @@
 
   .card {
       @include flex(column, center);
-      @include medidas(300px, 260px);
+      @include medidas(300px, 280px);
       @include marginstb(20px, 20px);
       row-gap: 10px;
       border: $color-secundario 1px solid;
@@ -28,25 +32,25 @@
   }
 
   .fotoPayLimon {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
 
   .fotoPayGuayaba {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
 
   .fotoPayMoras {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
 
   .fotoPayMango {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
@@ -58,6 +62,11 @@
   @include flex(row, center);
 }
 
+
+ul.paysChocolates {
+  padding-left: 0;
+  }
+
 .paysChocolates {
   color: black;
   @include paddingstb(10px, 20px);
@@ -66,7 +75,7 @@
 
   .card {
       @include flex(column, center);
-      @include medidas(300px, 260px);
+      @include medidas(300px, 280px);
       @include marginstb(20px, 20px);
       row-gap: 10px;
       border: $color-secundario 1px solid;
@@ -74,25 +83,25 @@
   }
 
   .fotoPayConejito {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
 
   .fotoPayFerrero {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
 
   .fotoPayKitKat {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }
 
   .fotoPayRaffaello {
-      @include medidas(200px, 110px);
+      @include medidas(200px, 140px);
       border-radius: 10%;
       object-fit: cover;
   }

@@ -15,7 +15,7 @@
         margin-bottom: 50px;
 
         .textoMision {
-            @include medidas(550px, 250px);
+            @include medidas(550px, 150px);
             padding-top: 30px;
         }
 
@@ -24,7 +24,7 @@
         }
 
         .imagenMision {
-            @include medidas(550px, 250px);
+            @include medidas(550px, 350px);
             border-radius: 10%;
             object-fit: cover;
             transition: transform 2s;
@@ -40,7 +40,7 @@
         margin-bottom: 50px;
 
         .imagenVision {
-            @include medidas(550px, 250px);
+            @include medidas(550px, 350px);
             border-radius: 10%;
             object-fit: cover;
             transition: transform 2s;
@@ -74,13 +74,128 @@
         }
 
         .imagenValores {
-            @include medidas(550px, 250px);
+            @include medidas(550px, 350px);
             border-radius: 10%;
             object-fit: cover;
             transition: transform 2s;
 
             &:hover {
                 transform: rotatey(360deg);
+            }
+        }
+    }
+}
+
+/* NOSOTROS RESOLUCION MENOR A 1024px */
+@media screen and (max-width: 1120px) {
+    .paddingNosotros {
+        padding-top: 30px;
+        margin-bottom: 30px;
+
+        .cardMision {
+            @include flex(column, center);
+            margin-bottom: 20px;
+
+            .textoMision {
+                @include medidas(700px, 110px);
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+            }
+
+            .imagenMision {
+                @include medidas(700px, 450px);
+                object-fit: cover;
+            }
+        }
+
+        .cardVision {
+            @include flex(column-reverse, center);
+            margin-bottom: 20px;
+
+            .imagenVision {
+                @include medidas(700px, 450px);
+                object-fit: cover;
+            }
+
+            .textoVision {
+                @include medidas(700px, 150px);
+                padding-bottom: 0px;
+                padding-top: 45px;
+            }
+        }
+
+        .cardValores {
+            @include flex(column, center);
+            margin-bottom: 40px;
+            margin-top: 40px;
+
+            .textoValores {
+                @include medidas(700px, 130px);
+                margin: 20px;
+
+            }
+
+            .imagenValores {
+                @include medidas(700px, 450px);
+                object-fit: cover;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+/* NOSOTROS RESOLUCION MENOR A 768px */
+@media screen and (max-width: 768px) {
+    .paddingNosotros {
+        padding-top: 30px;
+        margin-bottom: 30px;
+
+        .cardMision {
+            @include flex(column, center);
+            margin-bottom: 20px;
+
+            .textoMision {
+                @include medidas(300px, 100px);
+                margin-bottom: 40px;
+                padding-top: 10px;
+            }
+
+            .imagenMision {
+                margin-top: 0px;
+                @include medidas(300px, 200px);
+                object-fit: cover;
+            }
+        }
+
+        .cardVision {
+            @include flex(column-reverse, center);
+            margin-bottom: 20px;
+
+            .textoVision {
+                @include medidas(300px, 190px);
+                padding-bottom: 0px;
+            }
+
+            .imagenVision {
+                @include medidas(300px, 200px);
+                object-fit: cover;
+                margin-top: 15px;
+            }
+        }
+
+        .cardValores {
+            @include flex(column, center);
+            margin-bottom: 20px;
+
+            .textoValores {
+                @include medidas(300px, 190px);
+                padding-bottom: 0px;
+            }
+
+            .imagenValores {
+                @include medidas(300px, 200px);
+                object-fit: cover;
+                margin-top: 110px;
             }
         }
     }
