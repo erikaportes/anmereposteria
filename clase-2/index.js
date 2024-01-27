@@ -1,31 +1,31 @@
-//condicionales => estructuras de control de control de flujo que nos van a permitir tomar decisiones.
-//nos van a servir para ejecutar diferentes bloques de codigo y en las condiciones se esperan, 
-//que las condiciones sean VERDADERAS O FALSAS.
+// condicionales => estructuras de control de control de flujo que nos van a permitir tomar decisiones.
+// nos van a servir para ejecutar diferentes bloques de codigo y en las condiciones se esperan, 
+// que las condiciones sean VERDADERAS O FALSAS.
 
-//estructura if => es una construccion fundamental para la toma de desiciones. Evalua expresiones o condiciones, y siempre va a evaluar verdadero.
+// estructura if => es una construccion fundamental para la toma de desiciones. Evalua expresiones o condiciones, y siempre va a evaluar verdadero.
 
 
 // if (condicion boleana){
 
-// // }
+// }
 
-// //operadores de comparacion o relacionales => 
+// operadores de comparacion o relacionales => 
 
 // let variable1 = 2; //numero
 // let variable2 = "2"; //string
 
-// // string siempre esta entre " "
-// // number
-// // boleans
+// string siempre esta entre " "
+// number
+// boleans
  
 
-// // x == y => operador de igualdad, evalua el valor guardado pero no le va a importar el tipo de dato. 
+// x == y => operador de igualdad, evalua el valor guardado pero no le va a importar el tipo de dato. 
 
 // if( variable1 == variable2){
 //     console.log("son lo mismo para este operador");
 // }
 
-// //x === y => estrictamente igual (el valor guardado y va evaluar que el tipo de dato sea igual)
+// x === y => estrictamente igual (el valor guardado y va evaluar que el tipo de dato sea igual)
 
 // if( variable1 === variable2){
 //     console.log("son lo mismo para este operador");
@@ -51,11 +51,11 @@
 //     console.log("false")
 // }
 
-// //estructura llamada else .. if => nos va a serivr para evaluar multiples condiciones de manera secuencial. 
+// estructura llamada else .. if => nos va a serivr para evaluar multiples condiciones de manera secuencial. 
 
 // let numero = prompt("ingresa tu numero:");
 
-//se inicia siempre con if se termina siempre con else. y en el medio tantos else if como sean necesarios
+// se inicia siempre con if se termina siempre con else. y en el medio tantos else if como sean necesarios
 // if (numero > 0){
 //     console.log("el numero es positivo")
 // }
@@ -67,7 +67,7 @@
 // }
 
 
-//un programita que evalue la edad de una persona en caso de que quiera conducir
+// un programita que evalue la edad de una persona en caso de que quiera conducir
 
 // const EDAD = prompt("ingresa tu edad");
 
@@ -78,11 +78,11 @@
 //     console.log("anda pasha, volve cuando seas mayor");
 // }
 
-//operadores logico
+// operadores logico
 
 // OPERADOR AND (&&) => operador siempre devuelve verdadero, si ambas expresiones que se evaluan son verdaderas.
 
-//las tablas de verdad tienen sosten en la medicion de booleanos. true o falso
+// las tablas de verdad tienen sosten en la medicion de booleanos. true o falso
 
 
 // a      | b    | a && b  
@@ -94,7 +94,7 @@
 // let EDAD =18;
 // let tieneLicencia = false; 
 
-//manejar auto => 1 mayor de edad, 2 es que tenga registro. 
+// manejar auto => 1 mayor de edad, 2 es que tenga registro. 
 
 // if(edad1 >= 18 && tieneLicencia == true){
 //     console.log("puede conducir");
@@ -102,30 +102,30 @@
 //     console.log("la persona no puede conducir");
 // }
 
-//OPERADOR LOGICO OR || => DEVUELVE VERDADERO SI SOLO SI 1 DE LOS 2 ELEMENTOS A EVALUAR ES VERDADERO
+OPERADOR LOGICO OR || => DEVUELVE VERDADERO SI SOLO SI 1 DE LOS 2 ELEMENTOS A EVALUAR ES VERDADERO
 
-// a     | b   |  a||b
-// true | true | true
-// true | false | true
-// false | true | true
-// false | false | false
+a     | b   |  a||b
+true | true | true
+true | false | true
+false | true | true
+false | false | false
 
 
-// let EDAD =18;
-// let juegaALaCompu = false; 
+let EDAD =18;
+let juegaALaCompu = false; 
 
-// if (EDAD >= 15 || juegaALaCompu == true){
-//     console.log("puede jugar");
-// }else{
-//     console.log("no puede jugar")
-// }
+if (EDAD >= 15 || juegaALaCompu == true){
+    console.log("puede jugar");
+}else{
+    console.log("no puede jugar")
+}
 
-//operador logico "no" ! => lo vamos a utilizar para inverir el valor de la condicion 
+operador logico "no" ! => lo vamos a utilizar para inverir el valor de la condicion 
 
-//condicion true  => false
-// condificon falsa => true
+condicion true  => false
+condificon falsa => true
 
-//verificar si el usuario no esta bloqueado
+verificar si el usuario no esta bloqueado
 
 let usuarioBloqueado = false;
 
@@ -143,28 +143,28 @@ if((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado =="
     alert("Error: Ingresar nombre valido");
 }
 
-//precedencia de operadores
+// precedencia de operadores
 
-//1. parentesis o e corchetes
-//2 operadores unitarios, ++ -- - !
-//3 aritmeticos * / %  => sumas y resta
-//4 relacionales < <= > >=
+// 1. parentesis o e corchetes
+// 2 operadores unitarios, ++ -- - !
+// 3 aritmeticos * / %  => sumas y resta
+// 4 relacionales < <= > >=
 // igualdad == !=
 // logicos && ||
-//asignacion
+// asignacion
 
 
-//1) 
+1) 
 
 let estaRegistrado = prompt("¿Esta registrado? responde con si o no");
-let esMayorDeEdad = prompt ("es mayor de edad contesnta si o no");
+let esMayorDeEdad = prompt ("es mayor de edad contesta si o no");
 
-// if(estaRegistrado && esMayorDeEdad >= 18){
-//     console.log("bienvenido a la pagina");
+if(estaRegistrado && esMayorDeEdad >= 18){
+    console.log("bienvenido a la pagina");
 
-// }else{
-//     console.log("acceso denegado")
-// }
+}else{
+    console.log("acceso denegado")
+}
 
 if (estaRegistrado === "si" && esMayorDeEdad === "si"){
 

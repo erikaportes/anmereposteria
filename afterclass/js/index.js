@@ -1,15 +1,14 @@
 //ejercicio 1 
 
-// let suma = 0;
+let suma = 0;
 
+for (let i = 1 ; i <=50; i++){
+    if(i % 2 === 0) {
+        suma += i ;
+    }
+}
 
-// for (let i = 1 ; i <=50; i++){
-//     if(i % 2 === 0) {
-//         suma += i ;
-//     }
-// }
-
-// console.log("los numeros pares son" + suma);
+console.log("los numeros pares son" + suma);
 
 // //ejercicio 2 
 
@@ -68,10 +67,10 @@
 
 //ejercicio 4 del modulo
 
-let entrada    = prompt("INGRESAR NOMBRE");
-let ingresados = '';
-while (entrada != 'Voldemort') {
-    ingresados += entrada +"\n";
-    entrada     = prompt("INGRESAR NOMBRE");
-}
-alert(ingresados);
+// let entrada    = prompt("INGRESAR NOMBRE");
+// let ingresados = '';
+// while (entrada != 'Voldemort') {
+//     ingresados += entrada +"\n";
+//     entrada     = prompt("INGRESAR NOMBRE");
+// }
+// alert(ingresados);

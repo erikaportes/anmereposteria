@@ -18,16 +18,13 @@
 //     console.log("hola mirrey")
 //     console.log("hola mirrey")
 //     console.log("hola mirrey")
-//     console.log("hola mirrey")
-    
-    
+//     console.log("hola mirrey")  
 // }
 
-
-// //las funciones se llaman para ser ejecutadas
-
 // saludar();
 // saludar();
+
+
 
 
 //LAS FUNCIONES TIENEN LA POSIBILIDAD DE ACEPTAR PARAMETROS Y ARGUMENTOS
@@ -120,13 +117,13 @@
 
 // console.log(resultadoEdad);
 
-// function sumar(a,b){
+function sumar(a,b){
 
-//     return a + b; 
-// }
+    return a + b; 
+}
 
-// let resultado = sumar(3,5);
-// console.log(resultado);
+let resultado = sumar(3,5);
+console.log(resultado);
 
 
 //FUNCION ANONIMAAA
@@ -139,9 +136,9 @@
 //FUNCION DE TIPO FLECHAA
 
 // son funciones de expresion corta donde => no solo declara que es una funcion si no que dentro tiene un return implicito
-let num1= parseInt(prompt("num1"))
-let num2= parseInt(prompt("num2"))
+// let num1= parseInt(prompt("num1"))
+// let num2= parseInt(prompt("num2"))
 
-let suma = (a,b) => a + b; 
+// let suma = (a,b) => a + b; 
 
-console.log(suma(num1,num2));
+// console.log(suma(num1,num2));

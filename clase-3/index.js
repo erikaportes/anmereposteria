@@ -34,7 +34,7 @@
 
 
 // for(let i= 0; i < 21; i++ ){
-//     console.log("inteacion Nro ", i);
+//     console.log("iteracion Nro ", i);
 // }
 
 // const  NUMERO =5;
@@ -95,31 +95,31 @@
 // console.log("tiempo cumplido");
 
 
-// //DO WHILE => 
+//DO WHILE => 
 
 // do{
-//      //bloque de codigo a ejecutarse al menos una vez
+     //bloque de codigo a ejecutarse al menos una vez
 // }while(condiciones);
 
 //programa para calcular la suma de numeros ingresados por el usuario
 
-// let suma = 0;
-// let continuar;
+let suma = 0;
+let continuar;
 
-// do{
-//     const NUMERO = parseFloat(prompt("ingresar el numero a sumar"));
+do{
+    const NUMERO = parseFloat(prompt("ingresar el numero a sumar"));
 
-//     if(!isNaN(NUMERO)){
-//         suma += NUMERO; 
-//         continuar = prompt("quiere ingresar otro numero(SI o No)").toLowerCase();
-//     }else{
-//         alert("ingresamos un numero valido");
-//         continuar = "si"; //en caso de que no ingrese un numero que el programa se puede continuar
-//     }
+    if(!isNaN(NUMERO)){
+        suma += NUMERO; 
+        continuar = prompt("quiere ingresar otro numero(SI o No)").toLowerCase();
+    }else{
+        alert("ingresamos un numero valido");
+        continuar = "si"; //en caso de que no ingrese un numero que el programa se puede continuar
+    }
 
-// } while(continuar === "si");
+} while(continuar === "si");
 
-// alert("la suma total es: " + suma)
+alert("la suma total es: " + suma)
 
 
 //switch => alternativa a if .. else se utiliza para toma de decisiones basadas en el valor de una expresion

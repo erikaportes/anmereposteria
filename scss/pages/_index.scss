@@ -4,6 +4,7 @@
   color: black;
   padding-top: 150px;
   @include flex(row, center);
+  @include paddingstb(160px, 30px)
 }
 
 .frutales {
