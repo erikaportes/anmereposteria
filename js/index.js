@@ -131,7 +131,7 @@
 //     case 3:
 //         console.log("Pay limón");
 //         break;
-    
+
 //     default:
 //         console.log("Producto no disponible");
 // }
@@ -143,7 +143,7 @@
 //  let ingresoDeApellido = prompt("Ingresar apellido:");
 //  let ingresoDeCorreo = prompt("Ingresar correo:");
 //  let ingresoDeDomicilio = prompt("Ingresar dirección de domicilio:");
- 
+
 //  function ingresarDatos(nombre, apellido, correo, domicilio){
 //      console.log("El nombre del usuario es: " + nombre + " y su apellido es: " + apellido + " y su correo es: " + correo + " y su domicilio es: " + domicilio);
 //  }
@@ -180,3 +180,66 @@
 // let resta = (a,b) => a - b; 
 
 // console.log(resta(num1,num2));
+
+
+// (OBJETOS) DESCRIPCIÓN PRODUCTOS REPOSTERÍA
+
+// let tipoProductos = "pays helados"
+// let productoCategoria = "frutales";
+// let productoSabor = "limón";
+// let productoPrecio = 350;
+
+// let payHeladoLimon = {
+//     producto: "pay helado",
+//     categoría: "frutales",
+//     sabor: "limón",
+//     precio: 350,
+// };
+
+// console.log(payHeladoLimon);
+// console.log(payHeladoLimon.precio);
+
+
+// PLANTILLA PARA INGRESAR C/U DE LOS PRODUCTOS 
+
+const producto ={
+    tipo: "",
+    categoría: "",
+    sabor: "",
+    precio: ""
+}
+
+producto.tipo = "pay helado";
+producto.categoría = "chocolates";
+producto.sabor = "Conejito";
+producto.precio = "360"
+
+console.log(producto);
+
+producto.tipo = "pay helado";
+producto.categoría = "chocolates";
+producto.sabor = "Ferrero";
+producto.precio = "380"
+
+console.log(producto);
+
+producto.tipo = "pay helado";
+producto.categoría = "frutales";
+producto.sabor = "Limón";
+producto.precio = "350"
+
+console.log(producto);
+
+producto.tipo = "pay helado";
+producto.categoría = "frutales";
+producto.sabor = "Mango";
+producto.precio = "350"
+
+console.log(producto);
+
+
+// PARA MODIFICAR ALGÚN PRODUCTO
+
+producto["sabor"] = "Guayaba";
+
+console.log(producto)
