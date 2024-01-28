@@ -96,24 +96,24 @@
 
 // SUMA DE CIERTA CANTIDAD DE PRODUCTOS AL CARRITO
 
-// let suma = 0;
-// let continuar;
+let suma = 0;
+let continuar;
 
-// do{
-//     const NUMERO = parseFloat(prompt("Ingresa la cantidad de productos a sumar a tu carrito"));
+do{
+    const NUMERO = parseFloat(prompt("Ingresa la cantidad de productos a sumar a tu carrito"));
 
-//     if(!isNaN(NUMERO)){
-//         suma += NUMERO; 
-//         continuar = prompt("¿Quieres ingresar otra cantidad? (Sí o No)").toLowerCase();
-//     }else{
-//         alert("Ingresa un numero válido");
-//         continuar = "si"; //en caso de que no ingrese un numero que el programa se puede continuar
-//     }
-// } 
+    if(!isNaN(NUMERO)){
+        suma += NUMERO; 
+        continuar = prompt("¿Quieres ingresar otra cantidad? (Sí o No)").toLowerCase();
+    }else{
+        alert("Ingresa un numero válido");
+        continuar = "si"; //en caso de que no ingrese un numero que el programa se puede continuar
+    }
+} 
 
-// while(continuar === "si");
+while(continuar === "si");
 
-// alert("la suma total es: " + suma)
+alert("la suma total es: " + suma)
 
 
 // DISPONIBILIDAD PRODUCTO
@@ -137,18 +137,18 @@
 // }
 
 
-// INGRESO DE DATOS DEL USUARIO
+// INGRESO DE DATOS DEL USUARIO PARA CONTINUAR COMPRA
 
-//  let ingresoDeNombre = prompt("Ingresar nombre:");
-//  let ingresoDeApellido = prompt("Ingresar apellido:");
-//  let ingresoDeCorreo = prompt("Ingresar correo:");
-//  let ingresoDeDomicilio = prompt("Ingresar dirección de domicilio:");
+ let ingresoDeNombre = prompt("Ingresar nombre:");
+ let ingresoDeApellido = prompt("Ingresar apellido:");
+ let ingresoDeCorreo = prompt("Ingresar correo:");
+ let ingresoDeDomicilio = prompt("Ingresar dirección de domicilio:");
 
-//  function ingresarDatos(nombre, apellido, correo, domicilio){
-//      console.log("El nombre del usuario es: " + nombre + " y su apellido es: " + apellido + " y su correo es: " + correo + " y su domicilio es: " + domicilio);
-//  }
+ function ingresarDatos(nombre, apellido, correo, domicilio){
+     console.log("El nombre del usuario es: " + nombre + " y su apellido es: " + apellido + " y su correo es: " + correo + " y su domicilio es: " + domicilio);
+ }
 
-//  ingresarDatos(ingresoDeNombre, ingresoDeApellido, ingresoDeCorreo, ingresoDeDomicilio);
+ ingresarDatos(ingresoDeNombre, ingresoDeApellido, ingresoDeCorreo, ingresoDeDomicilio);
 
 
 
@@ -280,6 +280,12 @@
 //     }
 // }
 
+// if (cantidad >= 5) {
+//     precioFinal *= 0.9;
+
+// }
+// return precioFinal;
+
 // const PRODUCTO_UNO = new Productos("pay helado", "chocolates", "Conejito", "350")
 // const PRODUCTO_DOS = new Productos("pay helado", "frutales", "limón", "360")
 // const PRODUCTO_TRES = new Productos("pay helado", "chocolates", "Ferrero", "380")
@@ -315,3 +321,27 @@
 // PRODUCTO2.saludar();
 // PRODUCTO3.saludar();
 // PRODUCTO4.saludar();
+
+
+
+// CALCULAR PRECIO CON DESCUENTO EN BASE A LA CANTIDAD DE PRODUCTOS
+
+// function calcularPrecioConDescuento(cantidad, precioUnitario) {
+
+//     let precioTotal = cantidad * precioUnitario;
+
+//     if (cantidad >= 5) {
+//         precioTotal *= 0.9;
+
+//     }
+//     return precioTotal;
+// }
+
+// console.log(calcularPrecioConDescuento(6, 350));
+
+
+
+
+
+
+
