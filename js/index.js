@@ -13,7 +13,7 @@
 // }
 
 
-// COMPRA EXITOSA EN BASE A LA FORMA DE PAGO (TARJETA O PAYPAL)
+// CONINUAR COMPRA SI LA FORMA DE PAGO ES CON TARJETA O PAYPAL
 
 // let tarjeta = true;
 // let payPal = false; 
@@ -202,44 +202,116 @@
 
 // PLANTILLA PARA INGRESAR C/U DE LOS PRODUCTOS 
 
-const producto ={
-    tipo: "",
-    categoría: "",
-    sabor: "",
-    precio: ""
-}
+// const producto ={
+//     tipo: "",
+//     categoría: "",
+//     sabor: "",
+//     precio: ""
+// }
 
-producto.tipo = "pay helado";
-producto.categoría = "chocolates";
-producto.sabor = "Conejito";
-producto.precio = "360"
+// producto.tipo = "pay helado";
+// producto.categoría = "chocolates";
+// producto.sabor = "Conejito";
+// producto.precio = "360"
 
-console.log(producto);
+// console.log(producto);
 
-producto.tipo = "pay helado";
-producto.categoría = "chocolates";
-producto.sabor = "Ferrero";
-producto.precio = "380"
+// producto.tipo = "pay helado";
+// producto.categoría = "chocolates";
+// producto.sabor = "Ferrero";
+// producto.precio = "380"
 
-console.log(producto);
+// console.log(producto);
 
-producto.tipo = "pay helado";
-producto.categoría = "frutales";
-producto.sabor = "Limón";
-producto.precio = "350"
+// producto.tipo = "pay helado";
+// producto.categoría = "frutales";
+// producto.sabor = "Limón";
+// producto.precio = "350"
 
-console.log(producto);
+// console.log(producto);
 
-producto.tipo = "pay helado";
-producto.categoría = "frutales";
-producto.sabor = "Mango";
-producto.precio = "350"
+// producto.tipo = "pay helado";
+// producto.categoría = "frutales";
+// producto.sabor = "Mango";
+// producto.precio = "350"
 
-console.log(producto);
+// console.log(producto);
 
 
 // PARA MODIFICAR ALGÚN PRODUCTO
 
-producto["sabor"] = "Guayaba";
+// producto["sabor"] = "Guayaba";
+// console.log(producto)
 
-console.log(producto)
+
+// OBJETOS CONSTRUCTORES PRODUCTOS
+// function Productos(producto, categoria, sabor, precio) {
+//     this.producto = producto
+//     this.categoria = categoria
+//     this.sabor = sabor
+//     this.precio = precio
+// }
+
+// const PRODUCTO_UNO = new Productos("pay helado", "chocolates", "Conejito", "350")
+// const PRODUCTO_DOS = new Productos("pay helado", "frutales", "limón", "360")
+// const PRODUCTO_TRES = new Productos("pay helado", "chocolates", "Ferrero", "380")
+// const PRODUCTO_CUATRO = new Productos("pay helado", "frutales", "mango", "350")
+// console.log(PRODUCTO_UNO, PRODUCTO_DOS, PRODUCTO_TRES, PRODUCTO_CUATRO);
+
+
+// PARA MODIFICAR PRODUCTO DESPUÉS
+
+// PRODUCTO_DOS.sabor = "guayaba"
+// console.log(PRODUCTO_DOS);
+
+
+// PRECIO OBJETOS CON IVA
+
+// const IVA = 1.21;
+
+// function Productos(producto, categoria, sabor, precio) {
+//     this.producto = producto
+//     this.categoria = categoria
+//     this.sabor = sabor
+//     this.precio = precio
+//     this.precioConIVA = function () {
+//         let precioFinal = this.precio * IVA;
+//         return "$" + precioFinal
+//     }
+// }
+
+// const PRODUCTO_UNO = new Productos("pay helado", "chocolates", "Conejito", "350")
+// const PRODUCTO_DOS = new Productos("pay helado", "frutales", "limón", "360")
+// const PRODUCTO_TRES = new Productos("pay helado", "chocolates", "Ferrero", "380")
+// const PRODUCTO_CUATRO = new Productos("pay helado", "frutales", "mango", "350")
+
+// console.log(PRODUCTO_UNO);
+// console.log(PRODUCTO_UNO.precioConIVA())
+// console.log(PRODUCTO_DOS.precioConIVA())
+// console.log(PRODUCTO_TRES.precioConIVA())
+// console.log(PRODUCTO_CUATRO.precioConIVA())
+
+
+// CLASS PRODUCTOS
+
+// class Productos{
+//     constructor(producto, categoria, sabor, precio){
+//         this.producto = producto
+//         this.categoria = categoria
+//         this.sabor = sabor
+//         this.precio = precio
+//     }
+//     saludar(){
+//         console.log(`Hola el producto es ${this.producto} y es de la categoría ${this.categoria} y es de ${this.sabor} y cuesta ${this.precio}} `)
+//     }
+// }
+
+// const PRODUCTO1 = new Productos("pay helado", "chocolates", "Conejito", 350);
+// const PRODUCTO2 = new Productos("pay helado", "frutales", "limón", 360);
+// const PRODUCTO3 = new Productos("pay helado", "chocolates", "Ferrero", 380)
+// const PRODUCTO4 = new Productos("pay helado", "frutales", "mango", 350)
+
+// PRODUCTO1.saludar();
+// PRODUCTO2.saludar();
+// PRODUCTO3.saludar();
+// PRODUCTO4.saludar();
