@@ -505,6 +505,26 @@ PRODUCTO8.saludar();
 //         sabor: "Ferrero",
 //        precio: 380
 //     }
+//     {
+//         sabor: "guayaba",
+//        precio: 350
+//     },
+//     {
+//         sabor: "KitKat",
+//        precio: 360
+//     },
+//     {
+//         sabor: "Raffaello",
+//        precio: 380
+//     }
+//     {
+//         sabor: "moras",
+//        precio: 370
+//     },
+//     {
+//         sabor: "mango",
+//        precio: 350
+//     }
 // ]
 // console.log(PAYS)
 
